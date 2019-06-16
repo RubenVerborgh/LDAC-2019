@@ -1,3 +1,7 @@
+.shower {
+  --accent: #3a2d72;
+}
+
 .shower .caption p {
   margin-top: .5em;
 }
@@ -8,4 +12,34 @@ p.venue {
 
 .slide.toc h2 {
   display: none;
+}
+
+.slide.text blockquote {
+  margin-top: 1.5em;
+}
+
+.slide.text blockquote p:not(:last-child) {
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 1.25em;
+  line-height: 1.3;
+}
+
+.slide.text > p {
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.3;
+}
+
+.slide.text > p:first-child {
+  margin-top: 1em;
+}
+
+#what-is-easy p:first-child {
+  margin: 2em 0 2em 60px;
+}
+
+#hard-easy {
+  padding-top: 3em;
 }
