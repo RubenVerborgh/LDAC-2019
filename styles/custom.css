@@ -5,3 +5,7 @@ p.venue {
   font-style: italic;
   margin-bottom: 1em;
 }
+
+.slide.toc h2 {
+  display: none;
+}
