@@ -23,24 +23,24 @@ blockquote :not(:last-child) {
   font-style: italic;
 }
 
-.slide.text blockquote {
+.slide.intro blockquote {
   margin-top: 1.5em;
 }
 
-.slide.text blockquote p:not(:last-child) {
+.slide.intro blockquote p:not(:last-child) {
   color: var(--accent);
   font-size: 1.25em;
   line-height: 1.3;
 }
 
-.slide.text > p {
+.slide.intro > p {
   color: var(--accent);
   font-weight: bold;
   font-size: 2em;
   line-height: 1.3;
 }
 
-.slide.text > p:first-child {
+.slide.intro > p:first-child {
   margin-top: 1em;
 }
 
@@ -50,6 +50,16 @@ blockquote :not(:last-child) {
 
 #hard-easy {
   padding-top: 3em;
+}
+
+.text.slide {
+  padding-top: 3em;
+}
+.text.slide > p {
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 1.3em;
+  line-height: 1.33;
 }
 
 .slide figure.cover.width.margin > :first-child {
@@ -75,6 +85,6 @@ blockquote :not(:last-child) {
 }
 
 .faded {
-  opacity: .25;
+  opacity: .20;
   filter: contrast(1.1);
 }
