@@ -20,6 +20,7 @@ q {
 
 blockquote :not(:last-child) {
   font-weight: bold;
+  font-style: italic;
 }
 
 .slide.text blockquote {
@@ -59,4 +60,21 @@ blockquote :not(:last-child) {
 }
 .slide h2 + figure.cover.height.margin > :first-child {
   height: 66%;
+}
+
+.slide.cover h2 {
+  text-shadow: -1.5px -1.5px 0 white,
+                1.5px -1.5px 0 white,
+               -1.5px  1.5px 0 white,
+                1.5px  1.5px 0 white;
+}
+.dark.slide.cover h2 {
+  color: var(--accent);
+  box-shadow: 0 0 100px white;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.faded {
+  opacity: .25;
+  filter: contrast(1.1);
 }
