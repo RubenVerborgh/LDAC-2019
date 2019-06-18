@@ -14,6 +14,10 @@ p.venue {
   display: none;
 }
 
+q {
+  font-style: italic;
+}
+
 blockquote :not(:last-child) {
   font-weight: bold;
 }
@@ -45,4 +49,14 @@ blockquote :not(:last-child) {
 
 #hard-easy {
   padding-top: 3em;
+}
+
+.slide figure.cover.width.margin > :first-child {
+  width: 88%
+}
+.slide h2 + figure.cover.margin > :first-child {
+  margin-top: 2em;
+}
+.slide h2 + figure.cover.height.margin > :first-child {
+  height: 66%;
 }
